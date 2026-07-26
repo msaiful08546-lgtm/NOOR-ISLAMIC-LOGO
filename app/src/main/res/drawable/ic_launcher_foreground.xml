@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Crescent Moon -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M50,28 C37,28 26,39 26,52 C26,65 37,76 50,76 C58.5,76 66,71.5 70,64.5 C61.5,68.5 51,66 45,58.5 C39,51 40,40.5 47,33.5 C48,32.5 49,31.5 50,30.5 C47.5,29 44,28 40,28 Z" />
+    <!-- Mosque Minaret Dome in Center -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M62,38 C60,42 60,45 62,48 L62,64 L66,64 L66,48 C68,45 68,42 66,38 L64,32 Z" />
+    <!-- Golden Star -->
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M64,30 L65.5,33.5 L69,34 L66.5,36.5 L67,40 L64,38 L61,40 L61.5,36.5 L59,34 L62.5,33.5 Z" />
+</vector>

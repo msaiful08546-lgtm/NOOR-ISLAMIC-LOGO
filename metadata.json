@@ -1,0 +1,6 @@
+{
+  "name": "Noor Islamic Logo",
+  "description": "AI-powered Islamic Logo Generator with World-class Prompt Library, AI Prompt Suite, and 4K Export",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

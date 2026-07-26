@@ -1,0 +1,40 @@
+package com.example.data
+
+enum class PromptCategory(
+    val id: String,
+    val title: String,
+    val description: String,
+    val iconName: String
+) {
+    ALL("all", "All Categories", "Browse all Islamic prompts", "apps"),
+    MOSQUE("mosque", "Mosque", "Grand domes, minarets, and architectural silhouettes", "account_balance"),
+    MAKKAH("makkah", "Makkah", "Holy Kaaba, Al-Haram, and sacred landmarks", "place"),
+    MADINA("madina", "Madina", "Green Dome, Nabawi minarets, and illuminated sanctuaries", "star_rate"),
+    KAABA("kaaba", "Kaaba", "Minimalist, geometric, and calligraphic Kaaba emblems", "crop_square"),
+    QURAN("quran", "Quran", "Open Quran, Rahlah stand, divine light rays", "menu_book"),
+    ARABIC_CALLIGRAPHY("arabic_calligraphy", "Arabic Calligraphy", "Thuluth, Diwani, Kufic, and Naskh typography", "brush"),
+    CRESCENT_MOON("crescent_moon", "Crescent Moon", "Celestial crescents, stars, and lunar geometric motifs", "nights_stay"),
+    ISLAMIC_BUSINESS("islamic_business", "Islamic Business", "Halal trade, finance, corporate, and luxury branding", "business_center"),
+    ISLAMIC_SCHOOL("islamic_school", "Islamic School", "Madrasa, knowledge, pen, book, and tree of wisdom", "school"),
+    ISLAMIC_FOUNDATION("islamic_foundation", "Islamic Foundation", "Charity, unity, holding hands, crescent shield", "volunteer_activism"),
+    ISLAMIC_CLOTHING("islamic_clothing", "Islamic Clothing", "Abaya, Thobe, Hijab, elegance, and fashion seal", "checkroom"),
+    HALAL_FOOD("halal_food", "Halal Food", "Halal certified emblem, wheat, spoon & fork, leaf", "restaurant"),
+    ISLAMIC_RESTAURANT("islamic_restaurant", "Islamic Restaurant", "Gourmet dining, Arabesque patterns, culinary luxury", "local_dining"),
+    ISLAMIC_YOUTUBE("islamic_youtube", "Islamic YouTube", "Media, play button, broadcast, crescent star vector", "play_circle_filled"),
+    RAMADAN("ramadan", "Ramadan", "Fanoos lantern, crescent moon, dates, night sky", "brightness_3"),
+    EID("eid", "Eid", "Celebration, fireworks, greeting ribbon, geometric star", "celebration"),
+    TASBIH("tasbih", "Tasbih", "Prayer beads, circle of dhikr, spiritual radiance", "adjust"),
+    MINARET("minaret", "Minaret", "Towering minarets, geometric spires, architectural seals", "vertical_align_top"),
+    LANTERN("lantern", "Lantern", "Traditional Fanoos, glowing filigree, amber light", "lightbulb"),
+    LUXURY_ISLAMIC("luxury_islamic", "Luxury Islamic", "Black & gold, diamond sheen, 3D metallic shield", "diamond"),
+    PREMIUM_ISLAMIC("premium_islamic", "Premium Islamic", "High-end corporate, gold leaf, dark emerald foil", "workspace_premium"),
+    MODERN_ISLAMIC("modern_islamic", "Modern Islamic", "Sleek vector, clean lines, minimalist geometry", "auto_awesome"),
+    MINIMAL_ISLAMIC("minimal_islamic", "Minimal Islamic", "Single line art, negative space, iconographic balance", "panorama_fish_eye"),
+    ROYAL_ISLAMIC("royal_islamic", "Royal Islamic", "Crowned emblem, coat of arms, ornate gold crest", "military_tech"),
+    VINTAGE_ISLAMIC("vintage_islamic", "Vintage Islamic", "Retro stamp, wax seal, parchment textured emblem", "history_edu"),
+    GOLDEN_STYLE("golden_style", "Golden Style", "24k molten gold texture, metallic reflection, shine", "monetization_on"),
+    GREEN_STYLE("green_style", "Green Style", "Deep emerald green glow, botanical geometric fusion", "grass"),
+    BLACK_GOLD("black_gold", "Black & Gold", "Ultra AMOLED black backdrop with gleaming gold leaf", "contrast"),
+    WHITE_ELEGANT("white_elegant", "White Elegant", "Pearl white, silver line art, pristine soft shadow", "auto_fix_high"),
+    SILVER_STYLE("silver_style", "Silver Style", "Chrome, platinum silver, metallic sheen, metallic emblem", "shield")
+}
